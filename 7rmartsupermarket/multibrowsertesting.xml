@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="crossbrowsertesting" parallel="tests">
+  <test  name="ChromeTest">
+  <parameter name="browser" value="chrome "></parameter>
+    <classes>
+      <class name="testscript.ManageCategoryTest"/>
+      <class name="testscript.ManageDeliveryboyTest"/>
+      <class name="testscript.AdminUsersTest"/>
+      <class name="testscript.ManagePagesTest"/>
+      <class name="testscript.ManageNewsTest"/>
+      <class name="testscript.LogOutTest"/>
+      <class name="testscript.LoginTest"/>
+    </classes>
+  </test>
+  <test  name="FirefoxTest">
+  <parameter name="" value=""></parameter>
+    <classes>
+      <class name="testscript.ManageCategoryTest"/>
+      <class name="testscript.ManageDeliveryboyTest"/>
+      <class name="testscript.AdminUsersTest"/>
+      <class name="testscript.ManagePagesTest"/>
+      <class name="testscript.ManageNewsTest"/>
+      <class name="testscript.LogOutTest"/>
+      <class name="testscript.LoginTest"/>
+    </classes>
+  </test>
+  
+   <!-- Test -->
+</suite> <!-- Suite -->
+ 

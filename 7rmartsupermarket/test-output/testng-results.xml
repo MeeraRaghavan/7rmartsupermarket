@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-10T08:29:29 IST" name="Suite" finished-at="2026-07-10T08:31:24 IST" duration-ms="114582">
+    <groups>
+    </groups>
+    <test started-at="2026-07-10T08:29:29 IST" name="Test" finished-at="2026-07-10T08:31:24 IST" duration-ms="114582">
+      <class name="testscript.ManageNewsTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testscript.ManageNewsTest@6150c3ec]" started-at="2026-07-10T08:30:21 IST" name="initializeBrowser" finished-at="2026-07-10T08:30:28 IST" duration-ms="6382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="enterNewsOnManageNewsField()[pri:0, instance:testscript.ManageNewsTest@6150c3ec]" started-at="2026-07-10T08:30:28 IST" name="enterNewsOnManageNewsField" finished-at="2026-07-10T08:30:33 IST" duration-ms="5208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNewsOnManageNewsField -->
+      </class> <!-- testscript.ManageNewsTest -->
+      <class name="testscript.LogOutTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testscript.LogOutTest@44c03695]" started-at="2026-07-10T08:30:33 IST" name="initializeBrowser" finished-at="2026-07-10T08:30:43 IST" duration-ms="10289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyUserCanLogoutSuccessfullyFromDashboard()[pri:0, instance:testscript.LogOutTest@44c03695]" started-at="2026-07-10T08:30:43 IST" name="verifyUserCanLogoutSuccessfullyFromDashboard" finished-at="2026-07-10T08:30:45 IST" duration-ms="1701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLogoutSuccessfullyFromDashboard -->
+      </class> <!-- testscript.LogOutTest -->
+      <class name="testscript.ManagePagesTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testscript.ManagePagesTest@1573f9fc]" started-at="2026-07-10T08:30:10 IST" name="initializeBrowser" finished-at="2026-07-10T08:30:16 IST" duration-ms="6328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="managePage()[pri:0, instance:testscript.ManagePagesTest@1573f9fc]" started-at="2026-07-10T08:30:16 IST" name="managePage" finished-at="2026-07-10T08:30:21 IST" duration-ms="5300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managePage -->
+      </class> <!-- testscript.ManagePagesTest -->
+      <class name="testscript.AdminUsersTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testscript.AdminUsersTest@5542c4ed]" started-at="2026-07-10T08:29:59 IST" name="initializeBrowser" finished-at="2026-07-10T08:30:06 IST" duration-ms="7686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="AdminUsers()[pri:0, instance:testscript.AdminUsersTest@5542c4ed]" started-at="2026-07-10T08:30:06 IST" name="AdminUsers" finished-at="2026-07-10T08:30:10 IST" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminUsers -->
+      </class> <!-- testscript.AdminUsersTest -->
+      <class name="testscript.ManageDeliveryboyTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testscript.ManageDeliveryboyTest@815b41f]" started-at="2026-07-10T08:29:48 IST" name="initializeBrowser" finished-at="2026-07-10T08:29:53 IST" duration-ms="4803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="manageDeliveryboy()[pri:0, instance:testscript.ManageDeliveryboyTest@815b41f]" started-at="2026-07-10T08:29:53 IST" name="manageDeliveryboy" finished-at="2026-07-10T08:29:59 IST" duration-ms="5821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageDeliveryboy -->
+      </class> <!-- testscript.ManageDeliveryboyTest -->
+      <class name="testscript.LoginTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testscript.LoginTest@7e6f74c]" started-at="2026-07-10T08:30:45 IST" name="initializeBrowser" finished-at="2026-07-10T08:30:51 IST" duration-ms="6049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsAbleToLoginwithInValidCredentials()[pri:0, instance:testscript.LoginTest@7e6f74c]" started-at="2026-07-10T08:30:51 IST" name="verifyTheUserIsAbleToLoginwithInValidCredentials" finished-at="2026-07-10T08:30:52 IST" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsAbleToLoginwithInValidCredentials -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testscript.LoginTest@7e6f74c]" started-at="2026-07-10T08:30:52 IST" name="initializeBrowser" finished-at="2026-07-10T08:31:00 IST" duration-ms="8857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsAbleToLoginwithInValidusernameAndValidPassword()[pri:0, instance:testscript.LoginTest@7e6f74c]" started-at="2026-07-10T08:31:00 IST" name="verifyTheUserIsAbleToLoginwithInValidusernameAndValidPassword" finished-at="2026-07-10T08:31:01 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsAbleToLoginwithInValidusernameAndValidPassword -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testscript.LoginTest@7e6f74c]" started-at="2026-07-10T08:31:01 IST" name="initializeBrowser" finished-at="2026-07-10T08:31:11 IST" duration-ms="10159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsAbleToLoginwithValidCredentials()[pri:0, instance:testscript.LoginTest@7e6f74c]" started-at="2026-07-10T08:31:11 IST" name="verifyTheUserIsAbleToLoginwithValidCredentials" finished-at="2026-07-10T08:31:13 IST" duration-ms="2036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsAbleToLoginwithValidCredentials -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testscript.LoginTest@7e6f74c]" started-at="2026-07-10T08:31:13 IST" name="initializeBrowser" finished-at="2026-07-10T08:31:22 IST" duration-ms="9120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsAbleToLoginwithValidusernameAndValidPassword()[pri:0, instance:testscript.LoginTest@7e6f74c]" started-at="2026-07-10T08:31:22 IST" name="verifyTheUserIsAbleToLoginwithValidusernameAndValidPassword" finished-at="2026-07-10T08:31:24 IST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsAbleToLoginwithValidusernameAndValidPassword -->
+      </class> <!-- testscript.LoginTest -->
+      <class name="testscript.ManageCategoryTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testscript.ManageCategoryTest@5656be13]" started-at="2026-07-10T08:29:29 IST" name="initializeBrowser" finished-at="2026-07-10T08:29:43 IST" duration-ms="14053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="enterCategoryItem()[pri:0, instance:testscript.ManageCategoryTest@5656be13]" started-at="2026-07-10T08:29:43 IST" name="enterCategoryItem" finished-at="2026-07-10T08:29:48 IST" duration-ms="5032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCategoryItem -->
+      </class> <!-- testscript.ManageCategoryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
