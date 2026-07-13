@@ -41,6 +41,8 @@ public class LoginTest extends Base{
 		loginpage.enterUserName(usernamevalue);
 		loginpage.enterPassword(passwordvalue);
 		loginpage.signin();
+		boolean alertpage1=loginpage.isInvalidLoginAlertDisplayed();
+		Assert.assertTrue(alertpage1);
 		
 	}
 	@Test
@@ -55,6 +57,8 @@ public class LoginTest extends Base{
 		loginpage.enterUserName(usernamevalue);
 		loginpage.enterPassword(passwordvalue);
 		loginpage.signin();
+		boolean alertpage2=loginpage.isInvalidAlertDisplayed1();
+		Assert.assertTrue(alertpage2);
 	}
 	@Test
 	public void verifyTheUserIsAbleToLoginwithInValidCredentials() throws IOException 
@@ -68,9 +72,9 @@ public class LoginTest extends Base{
 		loginpage.enterUserName(usernamevalue);
 		loginpage.enterPassword(passwordvalue);
 		loginpage.signin();
+		boolean alertpage3=loginpage.isInvalidAlertDisplayed2();
+		Assert.assertTrue(alertpage3);
 	}
-	
-	
 	
 	}
 

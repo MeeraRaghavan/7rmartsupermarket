@@ -12,6 +12,9 @@ public class LoginPage {
 	@FindBy(xpath="//input[@name='password']")WebElement password;
 	@FindBy(xpath="//button[@type='submit']")WebElement signin;
 	@FindBy(xpath="//p[text()='Dashboard']")WebElement dashboard;
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")WebElement invalidloginalert;
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")WebElement invalidloginalert1;
+	@FindBy(xpath="//i[@class='icon fas fa-ban']")WebElement invalidloginalert2;
 	
 	public LoginPage(WebDriver driver)
 	{
@@ -30,6 +33,17 @@ public class LoginPage {
 	}
 	public boolean isDashboardEnabled() {
 		return dashboard.isDisplayed();
+	}
+	public boolean isInvalidLoginAlertDisplayed()
+	{
+		return invalidloginalert.isDisplayed();
+	}
+	public boolean isInvalidAlertDisplayed1() 
+	{
+	return invalidloginalert1.isDisplayed();	
+	}
+	public boolean isInvalidAlertDisplayed2() {
+		return invalidloginalert2.isDisplayed();
 	}
 
 }
