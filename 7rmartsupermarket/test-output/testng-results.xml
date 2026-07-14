@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-13T00:25:31 IST" name="Suite" finished-at="2026-07-13T00:28:47 IST" duration-ms="195678">
+  <suite started-at="2026-07-13T11:54:04 IST" name="Suite" finished-at="2026-07-13T11:54:20 IST" duration-ms="16375">
     <groups>
     </groups>
-    <test started-at="2026-07-13T00:25:31 IST" name="Test" finished-at="2026-07-13T00:28:47 IST" duration-ms="195678">
+    <test started-at="2026-07-13T11:54:04 IST" name="Test" finished-at="2026-07-13T11:54:20 IST" duration-ms="16375">
       <class name="testscript.ManageNewsTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManageNewsTest@3eb25e1a]" started-at="2026-07-13T00:26:44 IST" name="initializeBrowser" finished-at="2026-07-13T00:27:03 IST" duration-ms="19600" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManageNewsTest@2f953efd]" started-at="2026-07-13T11:54:04 IST" name="initializeBrowser" finished-at="2026-07-13T11:54:16 IST" duration-ms="11730" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,158 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="enterNewsOnManageNewsField()[pri:0, instance:testscript.ManageNewsTest@3eb25e1a]" started-at="2026-07-13T00:27:03 IST" name="enterNewsOnManageNewsField" finished-at="2026-07-13T00:27:06 IST" duration-ms="2722" status="PASS">
+        <test-method signature="enterNewsOnManageNewsField()[pri:0, instance:testscript.ManageNewsTest@2f953efd]" started-at="2026-07-13T11:54:16 IST" name="enterNewsOnManageNewsField" finished-at="2026-07-13T11:54:20 IST" duration-ms="4562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterNewsOnManageNewsField -->
       </class> <!-- testscript.ManageNewsTest -->
-      <class name="testscript.LogOutTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.LogOutTest@477b4cdf]" started-at="2026-07-13T00:27:06 IST" name="initializeBrowser" finished-at="2026-07-13T00:27:22 IST" duration-ms="16286" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyUserCanLogoutSuccessfullyFromDashboard()[pri:0, instance:testscript.LogOutTest@477b4cdf]" started-at="2026-07-13T00:27:22 IST" name="verifyUserCanLogoutSuccessfullyFromDashboard" finished-at="2026-07-13T00:27:25 IST" duration-ms="2467" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserCanLogoutSuccessfullyFromDashboard -->
-      </class> <!-- testscript.LogOutTest -->
-      <class name="testscript.ManagePagesTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManagePagesTest@6743e411]" started-at="2026-07-13T00:26:24 IST" name="initializeBrowser" finished-at="2026-07-13T00:26:39 IST" duration-ms="15374" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method signature="managePage()[pri:0, instance:testscript.ManagePagesTest@6743e411]" started-at="2026-07-13T00:26:39 IST" name="managePage" finished-at="2026-07-13T00:26:44 IST" duration-ms="4587" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- managePage -->
-      </class> <!-- testscript.ManagePagesTest -->
-      <class name="testscript.AdminUsersTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.AdminUsersTest@662ac478]" started-at="2026-07-13T00:25:58 IST" name="initializeBrowser" finished-at="2026-07-13T00:26:17 IST" duration-ms="19566" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method signature="AdminUsers()[pri:0, instance:testscript.AdminUsersTest@662ac478]" started-at="2026-07-13T00:26:17 IST" name="AdminUsers" finished-at="2026-07-13T00:26:24 IST" duration-ms="6263" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AdminUsers -->
-      </class> <!-- testscript.AdminUsersTest -->
-      <class name="testscript.ManageDeliveryboyTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManageDeliveryboyTest@31190526]" started-at="2026-07-13T00:25:43 IST" name="initializeBrowser" finished-at="2026-07-13T00:25:53 IST" duration-ms="9648" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method signature="manageDeliveryboy()[pri:0, instance:testscript.ManageDeliveryboyTest@31190526]" started-at="2026-07-13T00:25:53 IST" name="manageDeliveryboy" finished-at="2026-07-13T00:25:58 IST" duration-ms="5227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- manageDeliveryboy -->
-      </class> <!-- testscript.ManageDeliveryboyTest -->
-      <class name="testscript.LoginTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@77c2494c]" started-at="2026-07-13T00:27:25 IST" name="initializeBrowser" finished-at="2026-07-13T00:27:42 IST" duration-ms="16976" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyTheUserIsAbleToLoginwithInValidCredentials()[pri:0, instance:testscript.LoginTest@77c2494c]" started-at="2026-07-13T00:27:42 IST" name="verifyTheUserIsAbleToLoginwithInValidCredentials" finished-at="2026-07-13T00:27:43 IST" duration-ms="1085" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheUserIsAbleToLoginwithInValidCredentials -->
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@77c2494c]" started-at="2026-07-13T00:27:43 IST" name="initializeBrowser" finished-at="2026-07-13T00:27:55 IST" duration-ms="11784" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyTheUserIsAbleToLoginwithInValidusernameAndValidPassword()[pri:0, instance:testscript.LoginTest@77c2494c]" started-at="2026-07-13T00:27:55 IST" name="verifyTheUserIsAbleToLoginwithInValidusernameAndValidPassword" finished-at="2026-07-13T00:27:55 IST" duration-ms="875" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheUserIsAbleToLoginwithInValidusernameAndValidPassword -->
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@77c2494c]" started-at="2026-07-13T00:27:55 IST" name="initializeBrowser" finished-at="2026-07-13T00:28:29 IST" duration-ms="33296" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyTheUserIsAbleToLoginwithValidCredentials()[pri:0, instance:testscript.LoginTest@77c2494c]" started-at="2026-07-13T00:28:29 IST" name="verifyTheUserIsAbleToLoginwithValidCredentials" finished-at="2026-07-13T00:28:31 IST" duration-ms="2738" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheUserIsAbleToLoginwithValidCredentials -->
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@77c2494c]" started-at="2026-07-13T00:28:31 IST" name="initializeBrowser" finished-at="2026-07-13T00:28:46 IST" duration-ms="14345" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyTheUserIsAbleToLoginwithValidusernameAndValidPassword()[pri:0, instance:testscript.LoginTest@77c2494c]" started-at="2026-07-13T00:28:46 IST" name="verifyTheUserIsAbleToLoginwithValidusernameAndValidPassword" finished-at="2026-07-13T00:28:47 IST" duration-ms="1194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTheUserIsAbleToLoginwithValidusernameAndValidPassword -->
-      </class> <!-- testscript.LoginTest -->
-      <class name="testscript.ManageCategoryTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManageCategoryTest@639c2c1d]" started-at="2026-07-13T00:25:31 IST" name="initializeBrowser" finished-at="2026-07-13T00:25:39 IST" duration-ms="7226" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeBrowser -->
-        <test-method signature="enterCategoryItem()[pri:0, instance:testscript.ManageCategoryTest@639c2c1d]" started-at="2026-07-13T00:25:39 IST" name="enterCategoryItem" finished-at="2026-07-13T00:25:43 IST" duration-ms="4253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterCategoryItem -->
-      </class> <!-- testscript.ManageCategoryTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

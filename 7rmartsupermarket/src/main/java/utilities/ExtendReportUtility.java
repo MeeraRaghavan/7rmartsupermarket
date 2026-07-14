@@ -16,7 +16,7 @@ public class ExtendReportUtility {
 																// ExtentSparkReporter
 		extentReports.attachReporter(reporter); // attaching od extend report and extendssparkrep for report generation
 		extentReports.setSystemInfo("Organization", "Obsqura"); // org name
-		extentReports.setSystemInfo("Name", "Varsha");// team membersname
+		extentReports.setSystemInfo("Name", "Meera");// team membersname
 		return extentReports; // createExtentReports() returns extentReports
 	}
 
