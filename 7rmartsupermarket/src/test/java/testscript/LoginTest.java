@@ -13,7 +13,7 @@ import utilities.ExcelUtility;
 
 public class LoginTest extends Base{
 	 
-	@Test
+	@Test(description="Testcase is for valid credentials")
 	public void verifyTheUserIsAbleToLoginwithValidusernameAndValidPassword() throws IOException 
 	{
 
@@ -29,7 +29,7 @@ public class LoginTest extends Base{
 		Assert.assertTrue(homepage);
 		
 	}
-	@Test
+	@Test(description="Testcase is for valid username with invalid password")
 	public void verifyTheUserIsAbleToLoginwithValidCredentials() throws IOException 
 	{
 
@@ -45,7 +45,7 @@ public class LoginTest extends Base{
 		Assert.assertTrue(alertpage1);
 		
 	}
-	@Test
+	@Test(description="Testcase is for invalid username and valid password")
 	public void verifyTheUserIsAbleToLoginwithInValidusernameAndValidPassword() throws IOException 
 	{
 
@@ -60,7 +60,7 @@ public class LoginTest extends Base{
 		boolean alertpage2=loginpage.isInvalidAlertDisplayed1();
 		Assert.assertTrue(alertpage2);
 	}
-	@Test
+	@Test(description="Testcase is for invalid credentials")
 	public void verifyTheUserIsAbleToLoginwithInValidCredentials() throws IOException 
 	{
 

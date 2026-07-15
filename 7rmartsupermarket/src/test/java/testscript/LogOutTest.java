@@ -7,7 +7,7 @@ import pages.LoginPage;
 import pages.LogoutPage;
 
 public class LogOutTest extends Base {
-	@Test
+	@Test(description="Testcase for logout")
 	public void verifyUserCanLogoutSuccessfullyFromDashboard()
 	{
 		String usernamevalue="admin";

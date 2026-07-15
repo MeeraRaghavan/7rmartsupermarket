@@ -10,7 +10,7 @@ import pages.ManagePagesPage;
 import utilities.ExcelUtility;
 
 public class ManagePagesTest extends Base {
-	@Test(retryAnalyzer=retry.Retry.class)
+	@Test(retryAnalyzer=retry.Retry.class,description="Testcase for manage pages")
 public void managePage() throws IOException
 {
 	String usernamevalue=ExcelUtility.getStringData(1, 0, "Loginpage");

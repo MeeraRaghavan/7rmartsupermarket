@@ -10,7 +10,7 @@ import pages.ManageDeliveryboyPage;
 import utilities.ExcelUtility;
 
 public class ManageDeliveryboyTest extends Base{
-	@Test
+	@Test(description="Testcase for manage delivery boy")
 	public void manageDeliveryboy() throws IOException {
 		String usernamevalue=ExcelUtility.getStringData(1, 0, "Loginpage");
 		String passwordvalue=ExcelUtility.getStringData(1, 1, "Loginpage");

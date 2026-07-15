@@ -11,7 +11,7 @@ import utilities.ExcelUtility;
 
 
 public class ManageNewsTest extends Base {
-	@Test(retryAnalyzer=retry.Retry.class)
+	@Test(retryAnalyzer=retry.Retry.class,description="Testcase for news on manage news field")
 	public void enterNewsOnManageNewsField() throws IOException
 	{
 		String usernamevalue=ExcelUtility.getStringData(1, 0, "Loginpage");

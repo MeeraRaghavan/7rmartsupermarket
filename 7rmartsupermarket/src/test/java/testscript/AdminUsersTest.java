@@ -10,7 +10,7 @@ import pages.LoginPage;
 import utilities.ExcelUtility;
 
 public class AdminUsersTest extends Base{
-	@Test
+	@Test(description="Testcase is for the details of adminuser")
 	public void AdminUsers() throws IOException {
 		String usernamevalue=ExcelUtility.getStringData(1, 0, "Loginpage");
 		String passwordvalue=ExcelUtility.getStringData(1, 1, "Loginpage");
